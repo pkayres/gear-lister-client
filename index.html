@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GearLister</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  </head>
+  <body>
+    <!--  navbar-->
+    <div class="ui inverted yellow menu">
+    <div class='item'>
+      <h1 class="ui header">
+        <div textAlign="center"class="content">
+          GEARLISTER
+        </div>
+        <div class="sub header">
+          The market place for musicians
+        </div>
+      </h1>
+    </div>
+  </div>
+  <h2>Create New Gear Post</h2>
+      <form id="create-post">
+        Title:<br>
+        <input type="text" id='title-input'name="title"><br>
+        Image:<br>
+        <input type="text" id='image-input'name="image"><br>
+        Description:<br>
+        <input type="text" id='description-input'name="description"><br>
+        Price:<br>
+        <input type="integer" id='price-input'name="Price"><br>
+        <button type="submit" id="sub-btn">Submit</button>
+      </form>
+      <div id="info-div">
+      </div>
+
+
+<div class="list-of-listings">
+
+</div>
+
+<div class="info">
+
+</div>
+
+
+  <script src="./src/index.js"></script>
+  </body>
+</html>
