@@ -11,7 +11,7 @@ https://github.com/pkayres/gear-lister-api
 
 
 ### This site was built with: 
-- [Ruby on Rails](https://rubyonrails.org/) The JavaScript library used
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) The JavaScript library used
 
 ### Authors: 
 
